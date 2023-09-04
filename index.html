@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Publicar dibujos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilosIA.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#contacto">Información de contacto</a></li>
+            <li><a href="#quien">Quién mantiene el sitio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="Actividad1-ProyectoDeSoftware.pdf" target="_blank">ACTIVIDAD 1 - PROYECTO DE SOFTWARE</a></li>
+        </ul>
+    </nav>
+    <section id="contacto">
+        <h2>Información de contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Enviar">
+        </form> 
+    </section>
+    <section id="quien">
+        <h2>Quién mantiene el sitio</h2>
+        <p>Este sitio es mantenido por Facundo Cruz.</p>
+    </section>
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <input type="radio" id="caricaturas" name="categoria" value="caricaturas">
+        <label for="caricaturas">Caricaturas</label><br>
+        <input type="radio" id="paisajes" name="categoria" value="paisajes">
+        <label for="paisajes">Paisajes</label><br>
+        <input type="radio" id="anime" name="categoria" value="anime">
+        <label for="anime">Animé</label><br>
+
+        <!-- Caricaturas -->
+        <div class="categoria caricaturas">
+            <img src="imagenes/caricatura1.png" alt="">
+            <img src="imagenes/caricatura2.png" alt="">
+        </div>
+
+        <!-- Paisajes -->
+        <div class="categoria paisajes">
+            <img src="imagenes/paisaje1.png" alt="">
+            <img src="imagenes/paisaje2.png" alt="">
+        </div>
+
+        <!-- Animé -->
+        <div class="categoria anime">
+            <img src="imagenes/anime1.png" alt="">
+            <img src="imagenes/anime2.png" alt="">
+        </div>
+
+    </section>
+
+</body>
+</html>
+
